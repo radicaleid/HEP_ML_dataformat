@@ -1,0 +1,2 @@
+# RDataFrame for flat root ntuple (RNTuple)
+(cd ana/root_ntuple_reading/ && python3 root_rntuple.py -i ../../workdir/test/ntupleConvt/RDOConv_ttbar_RNTuple_25_50_false_false/Dump_GNN4Itk_1.root -o ./feature_store/1 --threads 1 -f numpy |tee log.root_rntuple_1)
